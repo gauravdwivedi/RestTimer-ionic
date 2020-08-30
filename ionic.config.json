@@ -1,5 +1,7 @@
 {
   "name": "RestTimer",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
