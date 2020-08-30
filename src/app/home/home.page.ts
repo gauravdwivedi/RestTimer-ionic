@@ -8,7 +8,7 @@ import { Insomnia } from '@ionic-native/insomnia/ngx';
 })
 
 export class HomePage {
-
+  //variables  declarations
   percent: number = 0;
   radius: number = 100;
   fullTime: any = "00:01:30";
