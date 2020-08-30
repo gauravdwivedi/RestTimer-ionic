@@ -91,6 +91,7 @@ export class HomePage {
     return s;
   }
 
+  //when click on stop FAB
   stopTime() {
     clearInterval(this.timer);
     clearInterval(this.overrallTimer);
