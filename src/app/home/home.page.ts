@@ -64,6 +64,7 @@ export class HomePage {
     }, 1000)
   }
 
+  //below counter
   progressTimer() {
     let coundDownDate = new Date();
 
