@@ -87,7 +87,7 @@ export class HomePage {
 
     }, 1000)
   }
-
+  //adding number to timer
   pad(num, size) {
     let s = num + "";
     while (s.length < size) s = "0" + s;
