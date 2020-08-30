@@ -37,6 +37,8 @@ export class HomePage {
       clearInterval(this.timer);
     }
 
+
+    //want to run them only once and not when user tap on screen many times
     if (!this.overrallTimer) {
       this.progressTimer();
       this.insomnia.keepAwake();
