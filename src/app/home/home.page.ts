@@ -66,6 +66,7 @@ export class HomePage {
 
   //below counter
   progressTimer() {
+    //Date object
     let coundDownDate = new Date();
 
     this.overrallTimer = setInterval(() => {
