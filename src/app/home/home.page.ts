@@ -104,6 +104,8 @@ export class HomePage {
       m: '00',
       s: '00'
     }
+
+    //to stop screen to lock
     this.insomnia.allowSleepAgain()
   }
 }
