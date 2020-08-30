@@ -105,7 +105,7 @@ export class HomePage {
       s: '00'
     }
 
-    //to stop screen to lock
+    //to stop screen to lock automatically
     this.insomnia.allowSleepAgain()
   }
 }
