@@ -27,10 +27,10 @@ export class HomePage {
   overrallTimer: any = false;
 
   constructor(private insomnia: Insomnia) {
-    
+
   }
 
-
+  //when click on screen
   startTimer() {
 
     if (this.timer) {
