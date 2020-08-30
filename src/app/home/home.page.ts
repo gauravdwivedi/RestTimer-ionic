@@ -6,6 +6,7 @@ import { Insomnia } from '@ionic-native/insomnia/ngx';
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
 })
+
 export class HomePage {
 
   percent: number = 0;
@@ -26,7 +27,7 @@ export class HomePage {
   overrallTimer: any = false;
 
   constructor(private insomnia: Insomnia) {
-
+    
   }
 
 
